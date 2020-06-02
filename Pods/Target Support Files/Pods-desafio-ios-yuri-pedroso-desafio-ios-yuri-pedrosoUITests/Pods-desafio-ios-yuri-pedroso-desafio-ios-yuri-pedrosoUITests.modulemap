@@ -1,0 +1,6 @@
+framework module Pods_desafio_ios_yuri_pedroso_desafio_ios_yuri_pedrosoUITests {
+  umbrella header "Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
