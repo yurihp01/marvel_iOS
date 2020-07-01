@@ -17,8 +17,8 @@ struct Char: Codable {
     var image: String {
         return "\(thumbnail.path).\(thumbnail.extensionType)"
     }
-    var url: URL? {
-        return URL(string: image)
+    var url: URL {
+        URL(string: image) ?? URL(fileURLWithPath: "")
     }
 }
 

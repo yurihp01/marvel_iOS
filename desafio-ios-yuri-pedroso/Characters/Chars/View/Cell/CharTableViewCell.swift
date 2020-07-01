@@ -1,5 +1,5 @@
 //
-//  MarvelCharTableViewCell.swift
+//  CharTableViewCell.swift
 //  desafio-ios-yuri-pedroso
 //
 //  Created by Yuri on 29/05/20.
@@ -9,7 +9,7 @@
 import UIKit
 import AlamofireImage
 
-class MarvelCharTableViewCell: UITableViewCell {
+class CharTableViewCell: UITableViewCell {
 
     
     @IBOutlet weak var charImage: UIImageView!

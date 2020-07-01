@@ -7,152 +7,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B5B3D037-F9E7-4D4F-83A4-D8F21AA7158A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Controller/MarvelChar/Cell/MarvelCharTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "MarvelCharTableViewCell"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A976D18D-B4DD-4DB0-A72E-0369FD44DF9F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvilAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9CF3F013-F4BB-47DF-88B0-3A40FF9F1E6C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvilAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "480241B0-1F43-47BB-9FDB-3656860DCE8B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvilAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3A4FCC3B-C510-44EF-B758-901071330474"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvilAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4AEF7EB7-E37E-402A-9B33-102A5DA413D6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvilAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EF9E3372-9DF6-4707-8641-86542CCA5679"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvilAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "getComponent(offset:_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "68F18096-9170-4F6E-A801-975E19EDA8A0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvilAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2D6FCC15-3C20-40D6-BDEC-3AA7FA9B1625"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Controller/MarvelCharComic/MarvelCharComicViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "getComicsByCharacterId()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "77060703-9D09-4136-91A4-5CFD029A83E5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
@@ -168,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D0D00C23-6099-4255-8FDE-7B47C010BE8D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
@@ -311,193 +167,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A80A7202-67C2-4489-860E-7E3CAF4FEDF6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Controller/MarvelCharComic/MarvelCharComicViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "getComicsByCharacterId()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1AB1B7EB-7BA4-4C81-BBE7-73316A01C83D"
+            uuid = "F0CC2A92-0F63-4FBE-A435-D655114F1B06"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7C5DDAA9-0532-4A1F-9377-18AE6031E57A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "32F242C1-359D-4200-8CD6-B05B7A21B18A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0AF816B6-1054-4E9C-BD2F-73DC17BC0D26"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "95332FA8-69FD-4EFD-BE4C-B3E932349C2D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1DD39E2E-B4EF-4FE5-90E5-D3A41ADC46C8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "99000807-5306-4EFC-B5B8-C863CA4D9A3D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "getComic(charId:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5809A0AD-9642-4602-8B05-5F0D534173C7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Controller/MarvelCharComic/MarvelCharComicViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "getComicsByCharacterId()"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getComponent(offset:_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "5809A0AD-9642-4602-8B05-5F0D534173C7 - 2657210ff4cb49e4"
+                  uuid = "F0CC2A92-0F63-4FBE-A435-D655114F1B06 - f8a5bed2af0353db"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (desafio_ios_yuri_pedroso.Comic) -&gt; () in closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;desafio_ios_yuri_pedroso.Comic&gt;, desafio_ios_yuri_pedroso.APIError&gt;) -&gt; () in desafio_ios_yuri_pedroso.MarvelCharComicViewController.(getComicsByCharacterId in _1CFF6BD2317A86AE1CF7F5EE36DEE6F8)() -&gt; ()"
+                  symbolName = "static desafio_ios_yuri_pedroso.MarvelAPI.(getComponent in _A9DF1FA5837E4199321F31402FF6698A)(offset: Swift.Optional&lt;Swift.Int&gt;, _: desafio_ios_yuri_pedroso.MarvelPath) -&gt; Swift.Optional&lt;Foundation.URL&gt;"
                   moduleName = "desafio-ios-yuri-pedroso"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yuri/Desktop/DevVenture/desafio-ios-yuri-pedroso/desafio-ios-yuri-pedroso/Controller/MarvelCharComic/MarvelCharComicViewController.swift"
+                  urlString = "file:///Users/yuri/Desktop/DevVenture/desafio-ios-yuri-pedroso/desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "326">
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1431">
                </Location>
                <Location
-                  uuid = "5809A0AD-9642-4602-8B05-5F0D534173C7 - fcfabac582f90f95"
+                  uuid = "F0CC2A92-0F63-4FBE-A435-D655114F1B06 - a631d58f17af9f15"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (desafio_ios_yuri_pedroso.Price, desafio_ios_yuri_pedroso.Price) -&gt; Swift.Bool in closure #1 (desafio_ios_yuri_pedroso.Comic) -&gt; () in closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;desafio_ios_yuri_pedroso.Comic&gt;, desafio_ios_yuri_pedroso.APIError&gt;) -&gt; () in desafio_ios_yuri_pedroso.MarvelCharComicViewController.(getComicsByCharacterId in _1CFF6BD2317A86AE1CF7F5EE36DEE6F8)() -&gt; ()"
+                  symbolName = "closure #1 (Swift.String, Swift.String) -&gt; Foundation.URLQueryItem in static desafio_ios_yuri_pedroso.MarvelAPI.(getComponent in _A9DF1FA5837E4199321F31402FF6698A)(offset: Swift.Optional&lt;Swift.Int&gt;, _: desafio_ios_yuri_pedroso.MarvelPath) -&gt; Swift.Optional&lt;Foundation.URL&gt;"
                   moduleName = "desafio-ios-yuri-pedroso"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yuri/Desktop/DevVenture/desafio-ios-yuri-pedroso/desafio-ios-yuri-pedroso/Controller/MarvelCharComic/MarvelCharComicViewController.swift"
+                  urlString = "file:///Users/yuri/Desktop/DevVenture/desafio-ios-yuri-pedroso/desafio-ios-yuri-pedroso/Networking/MarvelAPI.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "57">
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "39">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1DFF91B8-FA71-4BE3-8F2C-C1B51902A1EF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "desafio-ios-yuri-pedroso/Controller/MarvelCharComic/MarvelCharComicViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "getComicsByCharacterId()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

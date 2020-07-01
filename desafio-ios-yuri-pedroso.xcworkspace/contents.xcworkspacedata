@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/yuri/Desktop/DevVenture/desafio-ios-yuri-pedroso/desafio-ios-yuri-pedroso/Characters/CharDetail/View/Detail.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:desafio-ios-yuri-pedroso.xcodeproj">
    </FileRef>
    <FileRef

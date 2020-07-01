@@ -10,7 +10,7 @@ import Foundation
 
 struct Comic: Codable {
     let title: String
-    let description: String?
+    var description: String?
     let thumbnail: Thumbnail
     let prices: [Price]
     var id: Int

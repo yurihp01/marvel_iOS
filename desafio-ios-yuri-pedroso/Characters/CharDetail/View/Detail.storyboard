@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Personagem-->
+        <scene sceneID="qix-sT-AsC">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="uOt-G3-nTl" customClass="DetailViewController" customModule="desafio_ios_yuri_pedroso" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yrf-eB-5d1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="41h-fN-wJS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="398"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dasdsadsasd" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n5r-ta-amh">
+                                <rect key="frame" x="16" y="458" width="382" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZF8-8u-3Gd">
+                                <rect key="frame" x="16" y="503" width="382" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYC-OI-W13">
+                                <rect key="frame" x="16" y="796" width="382" height="50"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="VSs-y3-XiC"/>
+                                </constraints>
+                                <state key="normal" title="Ver principal HQ">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="hqButton:" destination="uOt-G3-nTl" eventType="touchUpInside" id="TKE-2w-M49"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="41h-fN-wJS" firstAttribute="height" secondItem="yrf-eB-5d1" secondAttribute="height" multiplier="4/9" id="5Q5-d7-1db"/>
+                            <constraint firstItem="n5r-ta-amh" firstAttribute="centerX" secondItem="FM3-K5-Snl" secondAttribute="centerX" id="8xI-HE-mac"/>
+                            <constraint firstItem="41h-fN-wJS" firstAttribute="trailing" secondItem="FM3-K5-Snl" secondAttribute="trailing" id="CEc-U2-yZl"/>
+                            <constraint firstItem="41h-fN-wJS" firstAttribute="leading" secondItem="FM3-K5-Snl" secondAttribute="leading" id="FMd-5S-5NB"/>
+                            <constraint firstItem="n5r-ta-amh" firstAttribute="top" secondItem="41h-fN-wJS" secondAttribute="bottom" constant="16" id="LpL-cG-qCw"/>
+                            <constraint firstItem="CYC-OI-W13" firstAttribute="leading" secondItem="FM3-K5-Snl" secondAttribute="leading" constant="16" id="LpP-3i-vLx"/>
+                            <constraint firstItem="FM3-K5-Snl" firstAttribute="trailing" secondItem="ZF8-8u-3Gd" secondAttribute="trailing" constant="16" id="Nts-oT-YOO"/>
+                            <constraint firstItem="FM3-K5-Snl" firstAttribute="trailing" secondItem="CYC-OI-W13" secondAttribute="trailing" constant="16" id="PoQ-S2-hzI"/>
+                            <constraint firstItem="41h-fN-wJS" firstAttribute="top" secondItem="FM3-K5-Snl" secondAttribute="top" id="QdK-Wr-4Ry"/>
+                            <constraint firstItem="ZF8-8u-3Gd" firstAttribute="leading" secondItem="FM3-K5-Snl" secondAttribute="leading" constant="16" id="bUp-Qx-qqO"/>
+                            <constraint firstItem="CYC-OI-W13" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ZF8-8u-3Gd" secondAttribute="bottom" constant="16" id="dWF-eI-rEx"/>
+                            <constraint firstItem="n5r-ta-amh" firstAttribute="leading" secondItem="FM3-K5-Snl" secondAttribute="leading" constant="16" id="dtx-7A-ahn"/>
+                            <constraint firstItem="FM3-K5-Snl" firstAttribute="trailing" secondItem="n5r-ta-amh" secondAttribute="trailing" constant="16" id="gp6-hZ-ZIe"/>
+                            <constraint firstItem="FM3-K5-Snl" firstAttribute="bottom" secondItem="CYC-OI-W13" secondAttribute="bottom" constant="16" id="hnX-fr-vv3"/>
+                            <constraint firstItem="ZF8-8u-3Gd" firstAttribute="top" secondItem="n5r-ta-amh" secondAttribute="bottom" constant="16" id="oEg-xb-h5K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FM3-K5-Snl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Personagem" id="hhF-ZW-nx1"/>
+                    <connections>
+                        <outlet property="characterImage" destination="41h-fN-wJS" id="B58-F2-d0B"/>
+                        <outlet property="detailLabel" destination="ZF8-8u-3Gd" id="nMq-1R-MRk"/>
+                        <outlet property="nameLabel" destination="n5r-ta-amh" id="OoH-fe-nR0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="md4-8U-bk0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1370.625" y="48.591549295774648"/>
+        </scene>
+    </scenes>
+</document>

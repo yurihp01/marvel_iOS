@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import AlamofireImage
+
+protocol DetailProtocol {
+    func showComic(char: Char)
+}
     
 final class DetailViewController: UIViewController {
 
@@ -16,7 +21,8 @@ final class DetailViewController: UIViewController {
     @IBOutlet weak var detailLabel: UILabel!
     
     // MARK: - Variables
-    var char: Char?
+    var viewModel: DetailViewModel?
+    weak var coordinator: DetailCoordinator?
     
     // MARK: - Override Methods
     
@@ -25,24 +31,22 @@ final class DetailViewController: UIViewController {
         configViews()
     }
     
+    deinit {
+        print("Deinitialization: DetailViewController")
+        coordinator?.childDidFinish(coordinator)
+    }
+    
     // MARK: - Functions
     private func configViews() {
-        guard let char = char, let url = char.url, let description = char.description else { return }
-        title = "Personagem"
-        nameLabel.text = char.name
-        detailLabel.text = description.isEmpty ? "Este personagem não possui descrição!" : description
-        characterImage.af.setImage(withURL: url)
+        guard let viewModel = viewModel else { return }
+        title = viewModel.title
+        nameLabel.text = viewModel.name
+        detailLabel.text = viewModel.description
+        characterImage.af.setImage(withURL: viewModel.url)
     }
-
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let vc = segue.destination as? MarvelCharComicViewController else { return }
-        vc.char = char
-    }
-    
     
     @IBAction func hqButton(_ sender: UIButton) {
+        guard let char = viewModel?.char, let coordinator = coordinator else { return }
+        coordinator.showComic(char: char)
     }
 }

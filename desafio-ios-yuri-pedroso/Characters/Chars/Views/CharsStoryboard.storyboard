@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lista de Personagens-->
+        <scene sceneID="CVX-Gd-LRZ">
+            <objects>
+                <tableViewController storyboardIdentifier="CharactersTableViewController" id="RH1-TN-mOo" customClass="CharactersTableViewController" customModule="desafio_ios_yuri_pedroso" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="insetGrouped" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="GOf-uW-obT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.81568627449999997" green="0.21960784310000001" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.81568627449999997" green="0.21960784310000001" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <view key="tableFooterView" hidden="YES" contentMode="scaleToFill" id="he8-Wv-tGi">
+                            <rect key="frame" x="0.0" y="173.5" width="414" height="65"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bqZ-96-UlG">
+                                    <rect key="frame" x="8" y="8" width="398" height="41"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0M-3k-QsI">
+                                            <rect key="frame" x="0.0" y="0.0" width="196.5" height="41"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Voltar Página">
+                                                <color key="titleColor" red="0.81568627449999997" green="0.21960784310000001" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="backButton:" destination="RH1-TN-mOo" eventType="touchUpInside" id="Z4H-wq-Z5F"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2C-Ay-gbW">
+                                            <rect key="frame" x="201.5" y="0.0" width="196.5" height="41"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Avançar Página">
+                                                <color key="titleColor" red="0.81568627449999997" green="0.21960784310000001" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="nextButton:" destination="RH1-TN-mOo" eventType="touchUpInside" id="PTW-8t-S7R"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="bqZ-96-UlG" firstAttribute="top" secondItem="he8-Wv-tGi" secondAttribute="top" constant="8" id="1GR-mX-XQP"/>
+                                <constraint firstItem="bqZ-96-UlG" firstAttribute="leading" secondItem="he8-Wv-tGi" secondAttribute="leading" constant="8" id="5yU-ek-4o2"/>
+                                <constraint firstAttribute="trailing" secondItem="bqZ-96-UlG" secondAttribute="trailing" constant="8" id="Whd-JI-VgD"/>
+                                <constraint firstAttribute="bottom" secondItem="bqZ-96-UlG" secondAttribute="bottom" constant="16" id="nv5-QN-x5y"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="hK1-aJ-HQP" customClass="MarvelCharTableViewCell" customModule="desafio_ios_yuri_pedroso" customModuleProvider="target">
+                                <rect key="frame" x="20" y="55.5" width="374" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hK1-aJ-HQP" id="dCa-DD-b1E">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="tUE-eJ-Rh7">
+                                            <rect key="frame" x="0.0" y="0.0" width="125" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="125" id="bFE-BR-ajy"/>
+                                                <constraint firstAttribute="height" constant="100" id="fvx-e3-kKt"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Os Vingadores" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hvf-sK-sVX">
+                                            <rect key="frame" x="141" y="19" width="186" height="62"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="tUE-eJ-Rh7" secondAttribute="bottom" id="8TH-8Y-vDW"/>
+                                        <constraint firstItem="hvf-sK-sVX" firstAttribute="leading" secondItem="tUE-eJ-Rh7" secondAttribute="trailing" constant="16" id="hIu-pS-4Cq"/>
+                                        <constraint firstItem="tUE-eJ-Rh7" firstAttribute="top" secondItem="dCa-DD-b1E" secondAttribute="top" id="oHW-s3-TxF"/>
+                                        <constraint firstItem="tUE-eJ-Rh7" firstAttribute="leading" secondItem="dCa-DD-b1E" secondAttribute="leading" id="p41-VA-dzd"/>
+                                        <constraint firstAttribute="trailing" secondItem="hvf-sK-sVX" secondAttribute="trailing" constant="16" id="poN-yE-Ij6"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="hvf-sK-sVX" secondAttribute="bottom" constant="8" id="rCh-1M-5eZ"/>
+                                        <constraint firstItem="hvf-sK-sVX" firstAttribute="top" secondItem="dCa-DD-b1E" secondAttribute="topMargin" constant="8" id="zIP-Wf-umB"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="charImage" destination="tUE-eJ-Rh7" id="AuW-qW-bCe"/>
+                                    <outlet property="charLabel" destination="hvf-sK-sVX" id="ry6-VQ-U9Q"/>
+                                    <segue destination="1Lj-kP-9Qm" kind="show" id="EhF-Ik-z6G"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RH1-TN-mOo" id="luJ-Mm-dvR"/>
+                            <outlet property="delegate" destination="RH1-TN-mOo" id="rZb-TO-r1L"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Lista de Personagens" id="tbd-1w-eLg"/>
+                    <connections>
+                        <outlet property="backButton" destination="a0M-3k-QsI" id="YHH-gY-CAc"/>
+                        <outlet property="buttonView" destination="he8-Wv-tGi" id="yWr-05-SNY"/>
+                        <outlet property="nextButton" destination="y2C-Ay-gbW" id="DcX-gM-KTP"/>
+                        <outlet property="tableView" destination="GOf-uW-obT" id="cP3-s0-0BO"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="91J-6H-1PX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="579.375" y="48.591549295774648"/>
+        </scene>
+        <!--UIViewController-uOt-G3-nTl-->
+        <scene sceneID="NUI-6o-SD9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UIViewController-uOt-G3-nTl" id="1Lj-kP-9Qm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GrS-8v-gSc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1370.625" y="48.591549295774648"/>
+        </scene>
+    </scenes>
+</document>
