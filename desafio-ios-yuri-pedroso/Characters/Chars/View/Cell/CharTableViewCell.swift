@@ -11,7 +11,6 @@ import AlamofireImage
 
 class CharTableViewCell: UITableViewCell {
 
-    
     @IBOutlet weak var charImage: UIImageView!
     @IBOutlet weak var charLabel: UILabel!
     
