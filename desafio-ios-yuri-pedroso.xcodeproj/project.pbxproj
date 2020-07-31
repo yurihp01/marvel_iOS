@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A93A10CC4E1F3627603184A8 /* Pods_desafio_ios_yuri_pedroso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222E8AED82255FA67948E263 /* Pods_desafio_ios_yuri_pedroso.framework */; };
+		AA541B9324D49510009A0BA8 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA541B9224D49510009A0BA8 /* Detail.storyboard */; };
 		CA84DC0D833E9AE7ECA45F27 /* Pods_desafio_ios_yuri_pedroso_desafio_ios_yuri_pedrosoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B09F327E00C88D78CE5CA02 /* Pods_desafio_ios_yuri_pedroso_desafio_ios_yuri_pedrosoUITests.framework */; };
 		DA346967248058880020BE4C /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA346966248058880020BE4C /* String+MD5.swift */; };
 		DA34698124817D860020BE4C /* CodableResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34698024817D860020BE4C /* CodableResponse.swift */; };
@@ -55,9 +56,6 @@
 		DAA29919247D5E8300BDF9B4 /* desafio_ios_yuri_pedrosoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA29918247D5E8300BDF9B4 /* desafio_ios_yuri_pedrosoTests.swift */; };
 		DAA29924247D5E8300BDF9B4 /* desafio_ios_yuri_pedrosoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA29923247D5E8300BDF9B4 /* desafio_ios_yuri_pedrosoUITests.swift */; };
 		DAA29936247D888000BDF9B4 /* Char.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA29935247D888000BDF9B4 /* Char.swift */; };
-		DAA853272492EC7C00D6758A /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8E23452492A601008A8512 /* Detail.storyboard */; };
-		DAA853282492EC7E00D6758A /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8E23452492A601008A8512 /* Detail.storyboard */; };
-		DAA853292492EC7F00D6758A /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8E23452492A601008A8512 /* Detail.storyboard */; };
 		DAA8532B2492ECCF00D6758A /* Comic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8532A2492ECCF00D6758A /* Comic.storyboard */; };
 		DAA8532C2492ECCF00D6758A /* Comic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8532A2492ECCF00D6758A /* Comic.storyboard */; };
 		DAA8532D2492ECCF00D6758A /* Comic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8532A2492ECCF00D6758A /* Comic.storyboard */; };
@@ -113,6 +111,7 @@
 		53010247A3DA309D867F36EF /* Pods-desafio-ios-yuri-pedroso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-yuri-pedroso.debug.xcconfig"; path = "Target Support Files/Pods-desafio-ios-yuri-pedroso/Pods-desafio-ios-yuri-pedroso.debug.xcconfig"; sourceTree = "<group>"; };
 		799EB57DA78D0C3E529E13CE /* Pods-desafio-ios-yuri-pedrosoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-yuri-pedrosoTests.debug.xcconfig"; path = "Target Support Files/Pods-desafio-ios-yuri-pedrosoTests/Pods-desafio-ios-yuri-pedrosoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9A854D876866AC0C745185 /* Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests.release.xcconfig"; path = "Target Support Files/Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests/Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA541B9224D49510009A0BA8 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		B10D1CFFA54CB2210E1E725E /* Pods-desafio-ios-yuri-pedrosoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-yuri-pedrosoTests.release.xcconfig"; path = "Target Support Files/Pods-desafio-ios-yuri-pedrosoTests/Pods-desafio-ios-yuri-pedrosoTests.release.xcconfig"; sourceTree = "<group>"; };
 		CC133F48A17F091D3C9FA12E /* Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests.debug.xcconfig"; path = "Target Support Files/Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests/Pods-desafio-ios-yuri-pedroso-desafio-ios-yuri-pedrosoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA346966248058880020BE4C /* String+MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
@@ -130,7 +129,6 @@
 		DA8E232724919D88008A8512 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DA8E232A24919DDD008A8512 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		DA8E232F2491A669008A8512 /* CharsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharsCoordinator.swift; sourceTree = "<group>"; };
-		DA8E23452492A601008A8512 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Detail.storyboard; path = "/Users/yuri/Desktop/DevVenture/desafio-ios-yuri-pedroso/desafio-ios-yuri-pedroso/Characters/CharDetail/View/Detail.storyboard"; sourceTree = "<absolute>"; };
 		DA8E23462492A680008A8512 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
 		DA8E234C2492AEA4008A8512 /* Chars.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chars.storyboard; sourceTree = "<group>"; };
 		DA8E23512492AEB4008A8512 /* CharTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharTableViewCell.swift; sourceTree = "<group>"; };
@@ -516,7 +514,7 @@
 		DAF90045248D96AD00AA2223 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DA8E23452492A601008A8512 /* Detail.storyboard */,
+				AA541B9224D49510009A0BA8 /* Detail.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -634,8 +632,8 @@
 				DAA2990E247D5E8200BDF9B4 /* LaunchScreen.storyboard in Resources */,
 				DAA8532B2492ECCF00D6758A /* Comic.storyboard in Resources */,
 				DAA2990B247D5E8200BDF9B4 /* Assets.xcassets in Resources */,
-				DAA853272492EC7C00D6758A /* Detail.storyboard in Resources */,
 				DA8E234D2492AEA4008A8512 /* Chars.storyboard in Resources */,
+				AA541B9324D49510009A0BA8 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +644,6 @@
 				DAB22687248608CB0025A356 /* Assets.xcassets in Resources */,
 				DA8E234E2492AEA4008A8512 /* Chars.storyboard in Resources */,
 				DAA8532C2492ECCF00D6758A /* Comic.storyboard in Resources */,
-				DAA853282492EC7E00D6758A /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,7 +654,6 @@
 				DAB22688248608CC0025A356 /* Assets.xcassets in Resources */,
 				DA8E234F2492AEA4008A8512 /* Chars.storyboard in Resources */,
 				DAA8532D2492ECCF00D6758A /* Comic.storyboard in Resources */,
-				DAA853292492EC7F00D6758A /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
